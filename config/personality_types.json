@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "description": "24种特质由心力维度两两组合而成，每种特质都是独特的维度组合",
+    "dimensions": {
+      "heart": [
+        "empathy",    // 同理心：关注他人的感受
+        "self_esteem", // 自尊心：关注个人的成就感和价值感
+        "curiosity",   // 好奇心：关注过程的体验
+        "ambition"     // 企图心：关注最终的结果
+      ],
+      "power": [
+        "communication", // 沟通力：跟人打交道的能力
+        "perception",    // 感知力：对身边的事和物的感知能力
+        "self_control",  // 自制力：管理自己，调控自己的能力，喜欢有规律、稳定的状态
+        "resilience",    // 抗挫力：敢于冒险、探索与抗击打的能力，喜欢打破规则
+        "thinking",      // 思维力：多层次、多角度的思考能力
+        "learning"       // 学习力：善于模仿，吸收理解知识的能力
+      ]
+    }
+  },
+  "personality_types": [
+    {
+      "name": "顾问型", // 心理咨询师型/销售型
+      "description": "善于理解他人感受并有效沟通，能够准确把握他人需求并提供恰当建议",
+      "dimensions": {
+        "heart": "empathy",
+        "power": "communication"
+      }
+    },
+    {
+      "name": "作家型", // 侦探型/观察者型
+      "description": "具有敏锐的观察力和同理心，能深入理解并描述他人的情感体验",
+      "dimensions": {
+        "heart": "empathy",
+        "power": "perception"
+      }
+    },
+    {
+      "name": "人力型", // 社工型/辅导型
+      "description": "富有同理心且自我约束，能够稳定持续地关注和帮助他人",
+      "dimensions": {
+        "heart": "empathy",
+        "power": "self_control"
+      }
+    },
+    {
+      "name": "医者型", // 心理医生型/医生型
+      "description": "结合同理心与思维能力，善于分析他人需求并提供系统化解决方案",
+      "dimensions": {
+        "heart": "empathy",
+        "power": "thinking"
+      }
+    },
+    {
+      "name": "领导型", // 护理师型/引导型
+      "description": "具备强大的同理心和抗压能力，能在困境中持续支持和帮助他人",
+      "dimensions": {
+        "heart": "empathy",
+        "power": "resilience"
+      }
+    },
+    {
+      "name": "教师型", // 教育家型/培育型
+      "description": "结合同理心与学习能力，善于理解并引导他人的成长过程",
+      "dimensions": {
+        "heart": "empathy",
+        "power": "learning"
+      }
+    },
+    {
+      "name": "律师型", // 主持人型/表达者型
+      "description": "具有强烈的自尊心和出色的沟通能力，善于表达和维护正当权益",
+      "dimensions": {
+        "heart": "self_esteem",
+        "power": "communication"
+      }
+    },
+    {
+      "name": "艺术家型", // 艺术评论家型/鉴赏者型
+      "description": "结合自尊心与敏锐感知，善于创造并展现独特的艺术价值",
+      "dimensions": {
+        "heart": "self_esteem",
+        "power": "perception"
+      }
+    },
+    {
+      "name": "大副型", // 企业高管型/执行型
+      "description": "具有强烈的自尊心和自制力，善于严格执行并确保目标达成",
+      "dimensions": {
+        "heart": "self_esteem",
+        "power": "self_control"
+      }
+    },
+    {
+      "name": "财务型", // 法官型/分析型
+      "description": "结合自尊心与思维能力，善于进行严谨的分析和价值判断",
+      "dimensions": {
+        "heart": "self_esteem",
+        "power": "thinking"
+      }
+    },
+    {
+      "name": "项目经理型", // 运动员型/统筹型
+      "description": "具有强烈的自尊心和抗压能力，善于在挑战中维持项目稳定推进",
+      "dimensions": {
+        "heart": "self_esteem",
+        "power": "resilience"
+      }
+    },
+    {
+      "name": "学者与导师型", // 专家顾问型/专家型
+      "description": "结合自尊心与学习能力，追求专业权威并乐于分享知识",
+      "dimensions": {
+        "heart": "self_esteem",
+        "power": "learning"
+      }
+    },
+    {
+      "name": "营销型", // 记者型/传播型
+      "description": "结合好奇心与沟通能力，善于发现并传播有价值的信息",
+      "dimensions": {
+        "heart": "curiosity",
+        "power": "communication"
+      }
+    },
+    {
+      "name": "创意型", // 考古学家型/发现者型
+      "description": "具有强烈的好奇心和敏锐感知，善于发现新事物并产生创新想法",
+      "dimensions": {
+        "heart": "curiosity",
+        "power": "perception"
+      }
+    },
+    {
+      "name": "探索型", // 科研人员型/记者型
+      "description": "结合好奇心与自制力，能够系统地探索和研究感兴趣的领域",
+      "dimensions": {
+        "heart": "curiosity",
+        "power": "self_control"
+      }
+    },
+    {
+      "name": "工程师型", // 学者型/研究者型
+      "description": "结合好奇心与思维能力，善于分析问题并设计解决方案",
+      "dimensions": {
+        "heart": "curiosity",
+        "power": "thinking"
+      }
+    },
+    {
+      "name": "设计师型", // 探险家型/挑战者型
+      "description": "具有强烈的好奇心和抗压能力，勇于尝试新方案并突破常规",
+      "dimensions": {
+        "heart": "curiosity",
+        "power": "resilience"
+      }
+    },
+    {
+      "name": "研究型", // 终身学习者型/学者型
+      "description": "结合好奇心与学习能力，持续探索和积累专业知识",
+      "dimensions": {
+        "heart": "curiosity",
+        "power": "learning"
+      }
+    },
+    {
+      "name": "外交型", // 政治家型/政客型
+      "description": "结合企图心与沟通能力，善于通过对话达成目标",
+      "dimensions": {
+        "heart": "ambition",
+        "power": "communication"
+      }
+    },
+    {
+      "name": "战略型", // 投资人型/战略家型
+      "description": "结合企图心与敏锐感知，善于把握机会并制定战略规划",
+      "dimensions": {
+        "heart": "ambition",
+        "power": "perception"
+      }
+    },
+    {
+      "name": "决策型", // 企业家型/执行者型
+      "description": "结合企图心与自制力，善于制定目标并确保执行到位",
+      "dimensions": {
+        "heart": "ambition",
+        "power": "self_control"
+      }
+    },
+    {
+      "name": "管理型", // 战略规划师型/策划者型
+      "description": "结合企图心与思维能力，善于系统思考并进行有效管理",
+      "dimensions": {
+        "heart": "ambition",
+        "power": "thinking"
+      }
+    },
+    {
+      "name": "创业家型", // 冒险家型/突破者型
+      "description": "结合企图心与抗压能力，敢于承担风险并开拓新领域",
+      "dimensions": {
+        "heart": "ambition",
+        "power": "resilience"
+      }
+    },
+    {
+      "name": "策划型", // 创业家型/开拓者型
+      "description": "结合企图心与学习能力，善于学习新知识并规划发展路径",
+      "dimensions": {
+        "heart": "ambition",
+        "power": "learning"
+      }
+    }
+  ]
+} 
