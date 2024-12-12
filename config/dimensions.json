@@ -1,0 +1,16 @@
+{
+  "heart_dimensions": {
+    "empathy": "同理心",
+    "self_esteem": "自尊心",
+    "curiosity": "好奇心",
+    "ambition": "企图心"
+  },
+  "power_dimensions": {
+    "communication": "沟通力",
+    "perception": "感知力",
+    "self_control": "自制力",
+    "resilience": "抗挫力",
+    "thinking": "思维力",
+    "learning": "学习力"
+  }
+}

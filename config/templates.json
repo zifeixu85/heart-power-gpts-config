@@ -1,0 +1,18 @@
+{
+  "response_template": {
+    "analysis": {
+      "dominant_dimensions": {
+        "heart": [],
+        "power": []
+      },
+      "weak_dimensions": {
+        "heart": [],
+        "power": []
+      }
+    },
+    "recommendation": {
+      "summary": "",
+      "actionable_steps": []
+    }
+  }
+}
